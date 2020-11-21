@@ -5,9 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Landing Page</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header">
+            
+            <nav class="nav">
+                <div class="logo-box">
+                    Logo
+                </div>
+                <div class="links">
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <!-- <a href="">Contact</a> -->
+                    <a class="fac" href="https://www.facebook.com/groups/820631272035215?_rdc=1&_rdr">Facebook</a>
+                </div>
+            </nav>
+
+            <div class="hero-text-box">
+                <h1>Naija Confrence Alert</h1>
+            </div>
+
+        </header>
+
+        <section class="about" id="about">
+            <div class="about-head">
+                <h2>About Us</h2>
+                <p>Naijaconferencealert.com.ng is the No 1 Leading Listing Portal for both Local and International Conferences, Webinars and Workshops.</p>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                   <img src="./images/SVG/lock.svg" alt="">
+                   <h4>Private</h4>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, voluptatem!</p>
+                </div>
+                <div class="card">
+                    <img src="./images/SVG/eye.svg" alt="">
+                    <h4>Visible</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, aspernatur?</p>
+                </div>
+                <div class="card">
+                    <img src="./images/SVG/clock2.svg" alt="">
+                    <h4>History</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ea.</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="contact" id="contact">
+            <div class="about-head">
+                <h2>Contact</h2>
+                <p>Get in Touch with us!!</p>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <div class="social">
+                <a class="h-facebook" target="_blank" href="https://www.facebook.com/groups/820631272035215?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a>
+                <a class="h-google" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="h-linkedin" href="#"><i class="fa fa-whatsapp"></i></a>
+                <a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
