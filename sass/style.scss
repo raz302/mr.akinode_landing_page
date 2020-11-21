@@ -24,7 +24,11 @@ body {
   height: 100vh;
   background-color: #115ec2;
   clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
-  background-image: url(../images/bg.jpg);
+  background-image: linear-gradient(
+      rgba(48, 135, 250, 0.576),
+      rgba(48, 136, 250, 0.576)
+    ),
+    url(../images/bg.jpg);
   background-size: cover;
   background-position: center;
 
