@@ -24,6 +24,9 @@ body {
   height: 100vh;
   background-color: #115ec2;
   clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
 
   .nav {
     width: 100%;
@@ -146,7 +149,7 @@ body {
   margin: 10rem 0rem;
   //   clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
   background-color: #115ec2;
-  height: 100vh;
+  //   height: ;
   padding: 10rem 0rem;
   margin-bottom: 0rem;
 
